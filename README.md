@@ -1,4 +1,3 @@
-
 # Implementation-of-Linear-Regression-Using-Gradient-Descent
 
 ## AIM:
@@ -61,7 +60,8 @@ def gradientDescent(X,y,theta,alpha,num_iters):
 
     return theta and the list of the cost of theta during each iteration
     """
- m=len(y)
+
+    m=len(y)
     J_history=[]
 
     for i in range(num_iters):
